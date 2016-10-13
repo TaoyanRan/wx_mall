@@ -83,57 +83,51 @@ Page({
         product : [
             {
                 url : "../../pages/wx/index",
-                img : "http://o86ac3exs.bkt.clouddn.com/1c0319e5-1a53-4637-ac26-6c8d456c69cd.jpg?imageView2/1/w/200/h/200",
-                name: "商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称",
-                cost: "9999"
+                img : "http://o86ac3exs.bkt.clouddn.com/2d1eb528-4f90-41e4-88bc-6187eed95533.jpg?imageView2/1/w/200/h/200",
+                name: "漳州平和精品红心蜜柚（5斤装）原价：30",
+                cost: "28"
             },
             {
                 url : "../../pages/wx/index",
-                img : "http://o86ac3exs.bkt.clouddn.com/1c0319e5-1a53-4637-ac26-6c8d456c69cd.jpg?imageView2/1/w/200/h/200",
-                name: "商品名称商品名称商品名称",
-                cost: "9999"
+                img : "http://o86ac3exs.bkt.clouddn.com/82be799b-377b-4aa7-8444-a6aa8b378fa4.jpg?imageView2/1/w/200/h/200",
+                name: "坤晖碧根果（500克装）",
+                cost: "52"
             },
             {
                 url : "../../pages/wx/index",
-                img : "http://o86ac3exs.bkt.clouddn.com/1c0319e5-1a53-4637-ac26-6c8d456c69cd.jpg?imageView2/1/w/200/h/200",
-                name: "商品名称商品名称商品名称",
-                cost: "9999"
+                img : "http://o86ac3exs.bkt.clouddn.com/6e2066a0-024f-468b-8bda-aa83dce8aa2c.jpg?imageView2/1/w/200/h/200",
+                name: "澳洲进口脐橙（10个装4.2斤左右）原价：68",
+                cost: "60"
             },
             {
                 url : "../../pages/wx/index",
-                img : "http://o86ac3exs.bkt.clouddn.com/1c0319e5-1a53-4637-ac26-6c8d456c69cd.jpg?imageView2/1/w/200/h/200",
-                name: "商品名称商品名称商品名称",
-                cost: "9999"
+                img : "http://o86ac3exs.bkt.clouddn.com/0697a102-833d-4ea8-85b7-d3ae0effbfe7.png?imageView2/1/w/200/h/200",
+                name: "澳洲进口带骨沙朗牛排（600克）",
+                cost: "99"
             },
             {
                 url : "../../pages/wx/index",
-                img : "http://o86ac3exs.bkt.clouddn.com/1c0319e5-1a53-4637-ac26-6c8d456c69cd.jpg?imageView2/1/w/200/h/200",
-                name: "商品名称商品名称商品名称",
-                cost: "9999"
+                img : "http://o86ac3exs.bkt.clouddn.com/0697a102-833d-4ea8-85b7-d3ae0effbfe7.png?imageView2/1/w/200/h/200",
+                name: "澳洲进口手工牛排套餐（5种口味单片装）",
+                cost: "138"
             },
             {
                 url : "../../pages/wx/index",
-                img : "http://o86ac3exs.bkt.clouddn.com/1c0319e5-1a53-4637-ac26-6c8d456c69cd.jpg?imageView2/1/w/200/h/200",
-                name: "商品名称商品名称商品名称",
-                cost: "9999"
+                img : "http://o86ac3exs.bkt.clouddn.com/535de142-3dd1-4956-871f-6c6553e583cb.jpg?imageView2/1/w/200/h/200",
+                name: "漳州平和极品三红蜜柚（5斤装）原价：38",
+                cost: "33"
             },
             {
                 url : "../../pages/wx/index",
-                img : "http://o86ac3exs.bkt.clouddn.com/1c0319e5-1a53-4637-ac26-6c8d456c69cd.jpg?imageView2/1/w/200/h/200",
-                name: "商品名称商品名称商品名称",
-                cost: "9999"
+                img : "http://o86ac3exs.bkt.clouddn.com/6c6caf04-411d-4375-a1cc-f307d8bf70f0.jpg?imageView2/1/w/200/h/200",
+                name: "台湾小潘凤凰酥",
+                cost: "125"
             },
             {
                 url : "../../pages/wx/index",
-                img : "http://o86ac3exs.bkt.clouddn.com/1c0319e5-1a53-4637-ac26-6c8d456c69cd.jpg?imageView2/1/w/200/h/200",
-                name: "商品名称商品名称商品名称",
-                cost: "9999"
-            },
-            {
-                url : "../../pages/wx/index",
-                img : "http://o86ac3exs.bkt.clouddn.com/1c0319e5-1a53-4637-ac26-6c8d456c69cd.jpg?imageView2/1/w/200/h/200",
-                name: "商品名称商品名称商品名称",
-                cost: "9999"
+                img : "http://o86ac3exs.bkt.clouddn.com/3d94e254-0cc1-49b2-8c83-d21341fa0675.jpg?imageView2/1/w/200/h/200",
+                name: "洛川苹果（7斤装）",
+                cost: "52"
             }
         ]
     },

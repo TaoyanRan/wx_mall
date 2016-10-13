@@ -1,0 +1,5 @@
+<view class="flex warp">
+    <view class="icon" wx:for="{{ class }}">
+        <view class="{{ item.class }} item"></view>
+    </view>
+</view>

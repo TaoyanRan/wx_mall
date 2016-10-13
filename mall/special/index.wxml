@@ -1,4 +1,6 @@
 <view class="warp">
+
+
     <view class="list">
         <view wx:for="{{ special }}" class="item">
             <navigator url="{{ item.url }}">
