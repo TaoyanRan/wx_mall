@@ -1,0 +1,11 @@
+/**app.wxss**/
+
+.flex{
+    display: flex;
+}
+.column{
+    flex-direction: column;
+}
+.row{
+    flex-direction: row;
+}
