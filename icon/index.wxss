@@ -4,8 +4,11 @@
 }
 
 .item{
-    height: 10px;
-    width:10px;
+    height: 20px;
+    width : 20px;
     padding: 15px;
     font-family: Muiicons;
+    border:1rpx solid #E0E0E0;
+    border-radius:50%;
+    margin: 10px;
 }

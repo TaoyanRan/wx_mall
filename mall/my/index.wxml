@@ -1,0 +1,17 @@
+<view>
+    <view class="header flex">
+        <view class="user">
+            <image class="userPic" src="{{userInfo.avatarUrl}}"></image>
+            <text class="userName">{{ userInfo.nickName }}</text>
+        </view >
+        <view class="account mui-icon-arrowright">
+            <navigator src="../../icon/index">
+                <text>账户管理</text>
+            </navigator>
+        </view>
+    </view>
+
+    <view>
+
+    </view>
+</view>

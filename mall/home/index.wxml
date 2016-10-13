@@ -9,7 +9,7 @@
             <text class="search_text">搜一搜</text>
         </navigator>
 
-        <navigator url="../../pages/wx/index" hover-class="navigator-hover" class="classify">
+        <navigator url="../../icon/index" hover-class="navigator-hover" class="classify">
             <view class="classify_view">
                 <icon class="classify_icon" type="info" size="20" color="#5cc922"/>
                 <text class="classify_text">分类</text>

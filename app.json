@@ -1,7 +1,8 @@
 {
   "pages":[
-    "icon/index",
+    "mall/my/index",
     "mall/special/index",
+    "icon/index",
     "mall/home/index",
     "mall/my/index",
     "pages/wx/index"
@@ -45,7 +46,7 @@
         "selectedIconPath" : "resources/find-act.png"
       },
       {
-        "pagePath" : "pages/wx/index",
+        "pagePath" : "mall/my/index",
         "text" : "我的",
         "iconPath" : "resources/user.png",
         "selectedIconPath" : "resources/user-act.png"
