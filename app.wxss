@@ -4,6 +4,9 @@
 
 
 @font-face{font-family:Muiicons;font-weight:400;font-style:normal;src:url(fonts/mui.ttf) format('truetype')}
+page{
+    background: #f2f2f2;
+}
 .flex{
     display: flex;
 }

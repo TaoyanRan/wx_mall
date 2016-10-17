@@ -11,7 +11,7 @@
     "navigationBarBackgroundColor": "#35495e",
     "navigationBarTextStyle": "white",
     "navigationBarTitleText": "微信小程序",
-    "backgroundColor": "#f1f1f1",
+    "backgroundColor": "#eee",
     "backgroundTextStyle": "dark",
     "enablePullDownRefresh": true
   },

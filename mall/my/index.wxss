@@ -1,3 +1,9 @@
+.fff{
+    background: #ffffff;
+}
+.module{
+    margin-bottom:8px;
+}
 .header{
     justify-content: space-between;
     padding: 15px;
@@ -13,6 +19,7 @@
 .userPic{
     width : 60px;
     height: 60px;
+    border-radius: 50%;
 }
 .userName{
     font-size: 16px;
@@ -31,4 +38,71 @@
     width: 14px;
     height:14px;
     margin-top:-7px;
+}
+.accountMassage_text{
+    font-size: 12px;
+}
+.state{
+    width:100%;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+.stateItem{
+    padding:5px;
+    box-sizing: border-box;
+    font-size: 12px;
+    font-family:Muiicons;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-around;
+    display: flex;
+
+}
+.stateItem:before{
+    font-size: 28px;
+}
+.option{
+    position: relative;
+    border-bottom:1rpx solid #e0e0e0;
+    font-family:Muiicons;
+    padding:10px 0;
+    margin-left:15px;
+    font-size: 14px;
+}
+
+.module .option:last-child{
+    border-bottom: none;
+}
+.option:before{
+    position: absolute;
+    right:15px;
+    top:50%;
+    width: 14px;
+    height:14px;
+    margin-top:-7px;
+}
+.optionTitle{
+    font-family:Muiicons;
+}
+.optionTitle:before{
+    font-size: 18px;
+    margin-right: 10px;
+}
+.collect:before{
+    color: #ff4500;
+}
+.record:before{
+    color: #ff8c00;
+}
+.address:before{
+    color: #800080;
+}
+.idea:before{
+    color: #32cd32;
+}
+.service:before{
+    color: #00bfff;
+}
+.technology:before{
+    color: #d3d3d3;
 }
