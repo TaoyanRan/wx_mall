@@ -1,0 +1,58 @@
+<view>
+    <view class="header">
+        <view class="title">
+            <view class="titleName">今日收益(元)</view>
+            <view class="titleNumber">0.00</view>
+        </view>
+        <view class="flex state">
+            <navigator url="../../pages/wx/index" class="stateItem">
+                <view class="item">今日新增</view>
+                <view class="data">0</view>
+            </navigator>
+            <navigator url="../../pages/wx/index" class="stateItem">
+                <view class="item">我的团队</view>
+                <view class="data">0</view>
+            </navigator>
+            <navigator url="../../pages/wx/index" class="stateItem">
+                <view class="item">成交订单</view>
+                <view class="data">0</view>
+            </navigator>
+        </view>
+    </view>
+
+    <view class="container">
+        <view class="text_scroll flex">
+            <icon class="text_scroll_icon" type="info" size="20" color="#f96"/>
+            <view class="text_scroll_text">
+                <text>这是一段滚动的文字</text>
+            </view>
+        </view>
+
+        <view class="grid">
+            <navigator url="../../pages/wx/index" class="gridItem commodity">
+                <view class="icon mui-icon-star"></view>
+                <view class="gridItemName">分销商品</view>
+            </navigator>
+            <navigator url="../../pages/wx/index" class="gridItem team">
+                <view class="icon mui-icon-person"></view>
+                <view class="gridItemName">我的团队</view>
+            </navigator>
+            <navigator url="../../pages/wx/index" class="gridItem asset">
+                <view class="icon mui-icon-flag"></view>
+                <view class="gridItemName">我的财产</view>
+            </navigator>
+            <navigator url="../../pages/wx/index" class="gridItem tool">
+                <view class="icon mui-icon-gear"></view>
+                <view class="gridItemName">营销工具</view>
+            </navigator>
+            <navigator url="../../pages/wx/index" class="gridItem card">
+                <view class="icon mui-icon-email"></view>
+                <view class="gridItemName">生成推广名片</view>
+            </navigator>
+            <navigator url="../../pages/wx/index" class="gridItem coming">
+                <view class="icon mui-icon-more"></view>
+                <view class="gridItemName">敬请期待</view>
+            </navigator>
+        </view>
+    </view>
+</view>

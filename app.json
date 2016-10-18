@@ -1,11 +1,12 @@
 {
   "pages":[
+    "mall/market/index",
     "mall/my/index",
     "mall/special/index",
-    "icon/index",
     "mall/home/index",
     "mall/my/index",
-    "pages/wx/index"
+    "pages/wx/index",
+    "icon/index"
   ],
   "window":{
     "navigationBarBackgroundColor": "#35495e",
@@ -40,7 +41,7 @@
         "selectedIconPath" : "resources/record-act.png"
       },
       {
-        "pagePath" : "pages/wx/index",
+        "pagePath" : "mall/market/index",
         "text" : "营销",
         "iconPath" : "resources/find.png",
         "selectedIconPath" : "resources/find-act.png"
