@@ -2,13 +2,19 @@
     justify-content: space-between;
     flex-wrap: wrap;
 }
-
+.icon{
+    text-align:center;
+    flex-wrap: wrap;
+    align-items: center;
+}
 .item{
     height: 20px;
     width : 20px;
     padding: 15px;
-    font-family: Muiicons;
+    font-family:"iconfont";
     border:1rpx solid #E0E0E0;
     border-radius:50%;
     margin: 10px;
+}
+.text{
 }
