@@ -1,10 +1,8 @@
-//获取应用实例
-var app = getApp();
-
 Page({
     data: {
         mask : false,
         cart : false,
+        test : "",
         number : 1,
         slider : [
             {
@@ -24,42 +22,42 @@ Page({
             {
                 img : "../../icon/category_logo.png",
                 text: "分类",
-                url : "../../pages/wx/index"
+                url : "../column/column"
             },
             {
                 img : "../../icon/category_logo.png",
                 text: "分类",
-                url : "../../pages/wx/index"
+                url : "../column/column"
             },
             {
                 img : "../../icon/category_logo.png",
                 text: "分类",
-                url : "../../pages/wx/index"
+                url : "../column/column"
             },
             {
                 img : "../../icon/category_logo.png",
                 text: "分类",
-                url : "../../pages/wx/index"
+                url : "../column/column"
             },
             {
                 img : "../../icon/category_logo.png",
                 text: "分类",
-                url : "../../pages/wx/index"
+                url : "../column/column"
             },
             {
                 img : "../../icon/category_logo.png",
                 text: "分类",
-                url : "../../pages/wx/index"
+                url : "../column/column"
             },
             {
                 img : "../../icon/category_logo.png",
                 text: "分类",
-                url : "../../pages/wx/index"
+                url : "../column/column"
             },
             {
                 img : "../../icon/category_logo.png",
                 text: "分类",
-                url : "../../pages/wx/index"
+                url : "../column/column"
             }
         ],
         hot : [
@@ -189,5 +187,10 @@ Page({
         this.setData({
             number : number
         })
+    },
+
+
+    test : function(e){
+        console.log(this.data.test)
     }
 });

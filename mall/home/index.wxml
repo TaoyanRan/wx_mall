@@ -26,7 +26,7 @@
 
 
     <swiper duration="1000" interval="3000" current="0" autoplay="true" class="swiper">
-        <swiper-item wx:for="{{slider}}">
+        <swiper-item wx:for="{{slider}}" wx:key="item">
             <view>
                 <view>
                     <navigator url="{{ item.url }}" hover-class="navigator-hover" class="slider_item">
@@ -40,7 +40,7 @@
 
 
     <view class="category">
-        <view wx:for="{{ category }}" class="category_item">
+        <view wx:for="{{ category }}" wx:key="item" class="category_item">
             <navigator url="{{ item.url }}" hover-class="navigator-hover">
                 <view class="flex column category_item_btn">
                     <image src="{{ item.img }}" class="category_logo"></image>
@@ -56,7 +56,7 @@
                 <text>头条</text>
             </view>
             <swiper class="hot_list" autoplay="true" interval="3000" duration="1000">
-                <swiper-item wx:for="{{ hot }}">
+                <swiper-item wx:for="{{ hot }}" wx:key="item">
                     <view>
                         <text class="hot_list_text">{{ item.text }}</text>
                     </view>
@@ -72,7 +72,7 @@
         <view class="product_title">////  全网精选  ////</view>
         <view class="product_list">
             <view style="margin-right:5px;overflow:hidden;">
-                <view class="product_item" wx:for="{{ product }}">
+                <view class="product_item" wx:for="{{ product }}" wx:key="item">
                     <view class="product_item_container">
                         <navigator class="product_link" url="{{ item.url }}" hover-class="navigator-hover">
                             <image class="product_img" src="{{ item.img }}"></image>
@@ -121,6 +121,10 @@
             <button type="warn" class="cart_sure" bindtap="cartSure"> 确定 </button>
         </view>
     </block>
+
+
+
+    <input type="number" value="{{ test }}" bindinput="test"/>
 
 
 

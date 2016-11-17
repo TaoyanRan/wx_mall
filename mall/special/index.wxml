@@ -2,7 +2,7 @@
 
 
     <view class="list">
-        <view wx:for="{{ special }}" class="item">
+        <view wx:for="{{ special }}"  wx:key="item" class="item">
             <navigator url="{{ item.url }}">
                 <view class="cover">
                     <image src="{{ item.img }}"></image>

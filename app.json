@@ -1,9 +1,11 @@
 {
   "pages":[
+    "mall/home/index",
+    "mall/commodity/commodity",
+    "mall/column/column",
     "mall/market/index",
     "mall/my/index",
     "mall/special/index",
-    "mall/home/index",
     "mall/my/index",
     "pages/wx/index",
     "icon/index"

@@ -1,6 +1,6 @@
 <view>
-    <view class="wx_list" wx:for="{{items}}" bindtap="massage_info">
-        <navigator url="../index/index" hover-class="navigator-hover" style="display:block;width:100%;">
+    <view class="wx_list" wx:for="{{items}}" wx:key="item" bindtap="massage_info">
+        <navigator url="../../mall/home/index" hover-class="navigator-hover" style="display:block;width:100%;">
             <view class="item">
                 <view class="item_logo">
                     <image class="logo" src="images/leng.png"></image>
